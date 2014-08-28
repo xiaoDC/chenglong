@@ -1,0 +1,356 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+         ltchronus -  Code Monkey‘s Blog
+    </title>
+    
+    <meta name="author" content="ltchronus">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- bootstrap2 -->
+    <!--   <link href="/assets/themes/hooligan/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/hooligan/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet"> -->
+    <!-- bootstrap3 -->
+    <link href="/assets/themes/hooligan/bootstrap3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/hooligan/bootstrap3/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/themes/hooligan/css-social-buttons/css/zocial.stripped.css">
+    <link href="/assets/themes/hooligan/css/pygments.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/hooligan/css/darkstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/hooligan/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+
+    <!-- fav and touch icons -->
+    <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+ 
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand brand" href="/">Code Monkey‘s Blog</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">         
+                <ul class="nav navbar-nav">
+                      
+
+
+  
+    
+      
+      	
+      	<li><a href="/about.html">About Me</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="divider-vertical"></li>
+                    
+                    <li>
+                        <a href="https://github.com/ltchronus" class="zocial github icon" target="_blank">
+                            <span class="hidden-desktop">Github</span>
+                        </a>
+                    </li>
+                         
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+        <div >
+            
+
+	<div class="page-header">
+  		<h1>ltchronus  <small>记录我的点点滴滴</small></h1>
+  	</div>
+
+
+<div class="row">
+  <div class="content">
+    
+
+
+
+
+
+    
+    <div class="pagecontent">
+    <h1><a href="/2014/03/24/javascript10">JavaScript复习10</a></h1>
+    <p class="author">
+        <span class="date">March 24, 2014</span>
+    </p>
+    
+        
+            
+        
+        <a href="/2014/03/24/javascript10" type="button" class="btn btn-default">read more</a>
+    </div>
+    
+    
+    <div class="pagecontent">
+    <h1><a href="/2014/03/20/javascript9">JavaScript复习9</a></h1>
+    <p class="author">
+        <span class="date">March 20, 2014</span>
+    </p>
+    
+        
+            <h1>作用域链 复习</h1>
+
+<p>在对变量对的了解中，变量对象作为执行上下文的数据（包括变量、函数声明、函数形参）的概念已经清楚。
+那作用域有一个什么东西？</p>
+
+
+        
+        <a href="/2014/03/20/javascript9" type="button" class="btn btn-default">read more</a>
+    </div>
+    
+    
+    <div class="pagecontent">
+    <h1><a href="/javascript/2014/03/19/javascript8">javaScript复习8</a></h1>
+    <p class="author">
+        <span class="date">March 19, 2014</span>
+    </p>
+    
+        
+            <h1>关于this</h1>
+
+<p>JavaScript中this一直是比较奇怪的，并不像java那样静态绑定当前对象。<br>
+那JavaScript的this到底是怎么定义的呢？</p>
+
+<h2>定义</h2>
+
+<blockquote>
+<p>The this keyword evaluates to the value of the ThisBinding of the current execution context. The this value depends on the callerand the type of code being executed and is determined when control enters the execution context. Thethis value associated with an execution context is immutable.  （ECMA-3）</p>
+</blockquote>
+
+<p>也就是说this是可执行代码类型有关系，在进入执行上下文时确定，而且不可改变。</p>
+
+
+        
+        <a href="/javascript/2014/03/19/javascript8" type="button" class="btn btn-default">read more</a>
+    </div>
+    
+    
+    <div class="pagecontent">
+    <h1><a href="/programing/2014/03/13/BianryTree">BinaryTree</a></h1>
+    <p class="author">
+        <span class="date">March 13, 2014</span>
+    </p>
+    
+        
+            <h1>二叉树 复习</h1>
+
+<p>二叉树是一种每个节点最多有两个子节点的树。
+由于二叉树的子节点数目确定，所以可以直接采用下图方式在内存中实现。  </p>
+
+
+        
+        <a href="/programing/2014/03/13/BianryTree" type="button" class="btn btn-default">read more</a>
+    </div>
+    
+    
+    <div class="pagecontent">
+    <h1><a href="/2014/03/06/javascript7">JavaScript复习7</a></h1>
+    <p class="author">
+        <span class="date">March 06, 2014</span>
+    </p>
+    
+        
+            <h1>执行上下文和变量对象 复习</h1>
+
+<h2>执行上下文</h2>
+
+<blockquote>
+<p>每次当控制器转到ECMAScript可执行代码的时候，即会进入到一个执行上下文。活动的执行上下文组在逻辑上组成一个堆栈。堆栈底部永远都是全局上下文(global context)，而顶部就是当前(活动的)执行上下文。堆栈在EC类型进入和退出上下文的时候被修改（推入或弹出）。  </p>
+</blockquote>
+
+<h3>可执行代码类型</h3>
+
+<p>假设，可执行上下文堆栈是一个数组：  </p>
+<div class="highlight"><pre><code class="javascript language-javascript" data-lang="javascript"><span class="nx">ECStack</span> <span class="o">=</span> <span class="p">[];</span>
+</code></pre></div>
+<p>每次进入function或eval的时候，这个堆栈会被压入。  </p>
+
+
+        
+        <a href="/2014/03/06/javascript7" type="button" class="btn btn-default">read more</a>
+    </div>
+    
+    
+
+<!-- </ul>
+<ul class="pager">
+     
+     
+     
+     
+         
+     
+     
+     
+        
+     
+     
+        
+        <li><a href="/page2/">2</a></li>
+        
+     
+    
+    <li><a href="/page2/">下一页</a>
+    </li>
+    
+    <li><a href="/page3/">末页</a>
+    </li>
+    <li><a href="#">第1页 / 共3页</a>
+    </li>
+</ul> -->
+
+
+<div class="pagination">
+  
+    <span>&laquo; Prev</span>
+  
+
+  
+    
+      <em>1</em>
+    
+  
+    
+      <a href="/page2">2</a>
+    
+  
+    
+      <a href="/page3">3</a>
+    
+  
+
+  
+    <a href="/page2">Next &raquo;</a>
+  
+</div>
+
+
+
+
+
+
+  </div>
+</div>
+
+
+        </div>
+
+        <footer>
+            <p>&copy; 2014 ltchronus with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+                and <a href="http://github.com/dhulihan/hooligan" target="_blank">The Hooligan Theme</a>
+            </p>
+        </footer>
+    </div>
+    <!-- /container -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="/assets/themes/hooligan/js/jquery.min.js"><\/script>')
+    </script>
+    <!-- // <script src="/assets/themes/hooligan/bootstrap/js/bootstrap.min.js"></script> -->
+    <script src="/assets/themes/hooligan/bootstrap3/js/bootstrap.min.js"></script>
+    <!-- <link href="/assets/themes/hooligan/css/prettify.css" rel="stylesheet" type="text/css" media="all"> -->
+    <!-- // <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
+    <!-- // <script type="text/javascript" src="/assets/themes/hooligan/js/prettify.js"></script> -->
+
+
+
+ <!-- // <script src="/assets/themes/hooligan/js/rawinflate.js"></script> -->
+<!-- <script src="/assets/themes/hooligan/js/rawdeflate.js"></script> -->
+  <!-- // <script src="/assets/themes/hooligan/js/jquery_plantuml.js"></script> -->
+
+
+
+
+
+
+    
+</body>
+
+</html>
+
