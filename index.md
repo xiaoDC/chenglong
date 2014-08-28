@@ -1,7 +1,7 @@
 ---
 layout: page
-title: chenglong-Blog!
-tagline: Supporting tagline
+title: chenglong
+tagline: 记录我的成长
 ---
 {% include JB/setup %}
 
